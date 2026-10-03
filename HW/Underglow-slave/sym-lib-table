@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "TreeGlow") (type "KiCad") (uri "${KIPRJMOD}/../lib/TreeGlow.kicad_sym") (options "") (descr "TreeGlow project symbols"))
+)

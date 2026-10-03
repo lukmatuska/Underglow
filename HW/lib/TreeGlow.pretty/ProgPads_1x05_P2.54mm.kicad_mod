@@ -1,0 +1,157 @@
+(footprint "ProgPads_1x05_P2.54mm"
+	(version 20260206)
+	(generator "treeglow_mklib")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Programming pads: 5V, PA0/D-/SWDIO, PA1/D+/SWCLK, GND, PA2/TXD_1; 2.54 mm pogo pitch")
+	(tags "pogo test pad program CH572")
+	(property "Reference" "REF**"
+		(at 0 -1.9 0)
+		(layer "F.SilkS")
+		(uuid "9ce4933d-98de-4ab7-b6e4-06179d7c3e3c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "ProgPads"
+		(at 0 3.5 0)
+		(layer "F.Fab")
+		(uuid "b617e939-bdf1-4436-910b-24305428a5d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -6.18 -1.1)
+		(end 6.18 -1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "128ccc73-0f3a-49b9-9417-2a3a50c34412")
+	)
+	(fp_line
+		(start -6.18 2.7)
+		(end 6.18 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce9bfeec-9983-43ae-95bd-928753ab6c6b")
+	)
+	(fp_line
+		(start -6.18 -1.1)
+		(end -6.18 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5186e01c-e3f5-4490-bd19-c6fef9537bcf")
+	)
+	(fp_line
+		(start 6.18 -1.1)
+		(end 6.18 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dc0c00e8-ad25-4d2b-8137-c30f7b443d94")
+	)
+	(pad "1" smd rect
+		(at -5.08 0)
+		(size 1.6 1.6)
+		(layers "F.Cu" "F.Mask")
+		(uuid "75e9e990-e479-4d4b-8b14-6c8c6123a9de")
+	)
+	(fp_text user "5V"
+		(at -5.08 2 0)
+		(layer "F.SilkS")
+		(uuid "c997b859-7142-4a7f-a56f-ed52b925f3da")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.105)
+			)
+		)
+	)
+	(pad "2" smd circle
+		(at -2.54 0)
+		(size 1.6 1.6)
+		(layers "F.Cu" "F.Mask")
+		(uuid "d8e48f48-eb18-4fd5-868b-6f2b07fb1344")
+	)
+	(fp_text user "IO"
+		(at -2.54 2 0)
+		(layer "F.SilkS")
+		(uuid "151f347f-cd72-4e4a-bf16-c60461c17bee")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.105)
+			)
+		)
+	)
+	(pad "3" smd circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(layers "F.Cu" "F.Mask")
+		(uuid "e35f2c63-2224-475c-a9b3-ee6b1a557db0")
+	)
+	(fp_text user "CK"
+		(at 0 2 0)
+		(layer "F.SilkS")
+		(uuid "ecd92272-3873-4d62-ae01-eae273669f8a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.105)
+			)
+		)
+	)
+	(pad "4" smd circle
+		(at 2.54 0)
+		(size 1.6 1.6)
+		(layers "F.Cu" "F.Mask")
+		(uuid "4af69fbf-8dd2-4272-8d42-00c41ea627b3")
+	)
+	(fp_text user "GND"
+		(at 2.54 2 0)
+		(layer "F.SilkS")
+		(uuid "12af51c6-a981-49b8-90fd-eb17573c2700")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.105)
+			)
+		)
+	)
+	(pad "5" smd circle
+		(at 5.08 0)
+		(size 1.6 1.6)
+		(layers "F.Cu" "F.Mask")
+		(uuid "b77d8117-32ac-4d56-8d43-19b8ee92b7ae")
+	)
+	(fp_text user "TX"
+		(at 5.08 2 0)
+		(layer "F.SilkS")
+		(uuid "39770933-f706-47be-bebc-4e2a3bd74667")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.105)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
